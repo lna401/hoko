@@ -2,7 +2,29 @@
 	*******HEADER*******
  */
 
+html, body 
+{
+margin: 0;
+padding: 0;
+}
+
 .logo
 {
 	width: 800px;
+}
+
+.divlogo
+{
+	background-color: black;
+	text-align: center;
+}
+
+.back
+{
+	background-image: url(img/accueil.jpg);
+	height: 494px;
+	width: 800px;
+	background-size: cover;
+	background-position: center bottom;
+	margin-top: 21.5px;
 }
