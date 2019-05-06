@@ -37,10 +37,10 @@ nav .link
 {
     padding: 15px;
     border-radius: 10px;
-    margin: 0 3%;
+    margin: 0 2vw;
     background: black;
     display: inline-block;
-    width: 144px;
+    width: 10vw;
 }
 
 .link a
@@ -74,7 +74,7 @@ nav .link
 }
 .logo
 {
-    width: 800px;
+    height: 25vh;
 }
 
 .divlogo
@@ -244,7 +244,6 @@ nav .link
 .page5
 {
   font-size: 1.4em;
-  height: 100vh;
   display: flex;
   flex-direction: row;
   width: 100vw;
@@ -282,7 +281,7 @@ nav .link
 .rezos {
   margin-top: 2rem;
   margin-right: 2rem;
-  max-width: 25vw;
+  max-width: 20vw;
   text-align: right;
 }
 
