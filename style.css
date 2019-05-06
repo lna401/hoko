@@ -107,21 +107,9 @@ nav .link
     background: url(img/direct.jpg);
     background-repeat: no-repeat;
     background-position: left center;
-    height: 900px;
+    height: 100vh;
     font-size: 1.4em;
     padding-top: 40px;
-}
-
-.page2 .rubrique
-{
-    background: black;
-    font-family: titles;
-    color: white;
-    width: fit-content;
-    padding: 2rem 1.5rem;
-    padding-left: 6rem;
-    margin-top: 10vh;
-    border-radius: 0 10px 10px 0;
 }
 
 .page2 .title
@@ -178,9 +166,10 @@ nav .link
   height: 100vh;
 }
 
-.page3 .rubrique {
+.rubrique {
+  position: absolute;
   background: black;
-  font-family: titles;
+  font-family: "Titles";
   color: white;
   width: fit-content;
   padding: 2rem 1.5rem;
@@ -199,7 +188,39 @@ nav .link
   list-style-type: none;
 }
 
+/*
+ * Page 4
+ */
 
+.page4 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('img/vous.jpg');
+  background-size: cover;
+}
+
+.page4 .align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.page4 .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4rem;
+  height: 50vh;
+  width: 50vw;
+  background-color: rgba(0,0,0,.8);
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.text.bigger {
+  font-size: 2rem;
+}
 
 /*
  *******page 5*******
@@ -216,5 +237,5 @@ nav .link
 }
 .textposition
 {
-	
+
 }
