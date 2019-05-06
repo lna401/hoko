@@ -204,15 +204,23 @@ nav .link
  */
 .page5
 {
-
+  font-size: 1.4em;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
 }
 
-.faq
+.page5 .right
 {
-	width: 600px;
-	float: right;
+	background-image: url("img/faq.jpg");
+	background-size: cover;
+	flex: 1;
 }
-.textposition
+
+.page5 .left
 {
-	
+	font-size: 1.4em;
+	flex: 1;
 }
+
