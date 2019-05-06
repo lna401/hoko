@@ -168,8 +168,12 @@ nav .link
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 10vw;
   height: 100vh;
+}
+
+.page3 .right .text {
+  padding: 0 10vw;
+  width: 30vw;
 }
 
 .rubrique {
@@ -242,14 +246,52 @@ nav .link
 
 .page5 .right
 {
-	background-image: url("img/faq.jpg");
-	background-size: cover;
-	flex: 1;
+  background-image: url("img/faq.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  flex: 1;
 }
 
 .page5 .left
 {
-	font-size: 1.4em;
-	flex: 1;
+  margin-top: 20vh;
+  font-size: .9em;
+  flex: 1;
+  padding: 0 30px;
 }
 
+.text.title {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 50vw;
+}
+.rezos {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  max-width: 25vw;
+  text-align: right;
+}
+
+.retour {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  font-size: 1.4em;
+  background: rgba(0, 0, 0, .7);
+  padding: 10px;
+  padding-right: 20px;
+  border-radius: 10px 0 0 10px;
+}
+
+.retour a {
+  color: white;
+  text-decoration: none ;
+}
