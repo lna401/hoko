@@ -45,18 +45,20 @@ nav .link
 
 .page1
 {
-    position: relative;
-    top: -72px;
-    background: url(img/accueil.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 697px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/accueil.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     font-size: 1.4em;
 }
 
 .page1 .punchline
 {
-    padding-top: 18%;
+    padding-top: 10vh;
+    font-family: "Titles";
+    font-size: 2rem;
+
+    padding-bottom: 2vh;
 }
 
 .text
@@ -89,10 +91,10 @@ nav .link
 .bot
 {
     height: 200px;
-    position: relative;
+    position: absolute;
     width: auto;
     left: 80px;
-    top: 50px;
+    bottom: 1vh;
 }
 
 /*
