@@ -112,6 +112,12 @@ nav .link
     padding-top: 40px;
 }
 
+.page2 .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .page2 .title
 {
     color: white;
