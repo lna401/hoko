@@ -8,6 +8,16 @@ margin: 0;
 padding: 0;
 }
 
+.page1
+{
+	background: url(img/accueil.jpg);
+}
+
+.text 
+{
+	color: white;
+	text-align: center;
+}
 .logo
 {
 	width: 800px;
@@ -21,10 +31,7 @@ padding: 0;
 
 .back
 {
-	background-image: url(img/accueil.jpg);
 	height: 494px;
 	width: 800px;
-	background-size: cover;
-	background-position: center bottom;
 	margin-top: 21.5px;
 }
