@@ -45,18 +45,20 @@ nav .link
 
 .page1
 {
-    position: relative;
-    top: -72px;
-    background: url(img/accueil.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 697px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/accueil.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     font-size: 1.4em;
 }
 
 .page1 .punchline
 {
-    padding-top: 18%;
+    padding-top: 10vh;
+    font-family: "Titles";
+    font-size: 2rem;
+
+    padding-bottom: 2vh;
 }
 
 .text
@@ -89,10 +91,10 @@ nav .link
 .bot
 {
     height: 200px;
-    position: relative;
+    position: absolute;
     width: auto;
     left: 80px;
-    top: 50px;
+    bottom: 1vh;
 }
 
 /*
@@ -105,20 +107,15 @@ nav .link
     background: url(img/direct.jpg);
     background-repeat: no-repeat;
     background-position: left center;
-    height: 900px;
+    height: 100vh;
     font-size: 1.4em;
     padding-top: 40px;
 }
 
-.page2 .rubrique
-{
-    padding-left: 50%;
-    color: white;
-    background: black;
-    width: 170px;
-    padding-top: 12px;
-    border-radius: 0px 15px 15px 0px;
-    padding-bottom: 12px;
+.page2 .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .page2 .title
@@ -134,12 +131,11 @@ nav .link
 
 .page2 .player
 {
-    margin-top: 20%;
+    margin-top: 6%;
     margin-left: 20%;
     width: 440px;
     left: 52%;
     height: auto;
-
 }
 
 .page2 .video
@@ -176,9 +172,10 @@ nav .link
   height: 100vh;
 }
 
-.page3 .rubrique {
+.rubrique {
+  position: absolute;
   background: black;
-  font-family: titles;
+  font-family: "Titles";
   color: white;
   width: fit-content;
   padding: 2rem 1.5rem;
@@ -197,7 +194,39 @@ nav .link
   list-style-type: none;
 }
 
+/*
+ * Page 4
+ */
 
+.page4 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('img/vous.jpg');
+  background-size: cover;
+}
+
+.page4 .align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.page4 .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4rem;
+  height: 50vh;
+  width: 50vw;
+  background-color: rgba(0,0,0,.8);
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.text.bigger {
+  font-size: 2rem;
+}
 
 /*
  *******page 5*******
